@@ -1,0 +1,200 @@
+[
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 64,
+    "in_features": 1024,
+    "out_features": 1024,
+    "latency_ms": 0.027678720951080323,
+    "tflops": 4.849130429011438,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 64,
+    "in_features": 1024,
+    "out_features": 1024,
+    "latency_ms": 0.029573121070861817,
+    "tflops": 4.538503990782487,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 64,
+    "in_features": 2048,
+    "out_features": 2048,
+    "latency_ms": 0.05030911922454834,
+    "tflops": 10.671443274602863,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 64,
+    "in_features": 2048,
+    "out_features": 2048,
+    "latency_ms": 0.028846080303192138,
+    "tflops": 18.611572399338755,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 64,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 0.1590169620513916,
+    "tflops": 13.504745784955755,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 64,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 0.07535615921020508,
+    "tflops": 28.49778532381966,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 128,
+    "in_features": 1024,
+    "out_features": 1024,
+    "latency_ms": 0.03949568033218384,
+    "tflops": 6.7965775938605635,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 128,
+    "in_features": 1024,
+    "out_features": 1024,
+    "latency_ms": 0.028620800971984862,
+    "tflops": 9.37903367074719,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 128,
+    "in_features": 2048,
+    "out_features": 2048,
+    "latency_ms": 0.0828927993774414,
+    "tflops": 12.953378726068335,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 128,
+    "in_features": 2048,
+    "out_features": 2048,
+    "latency_ms": 0.028088319301605224,
+    "tflops": 38.22734327641442,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 128,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 0.26458112716674803,
+    "tflops": 16.233082616256166,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 128,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 0.07896063804626464,
+    "tflops": 54.39377647231639,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 256,
+    "in_features": 1024,
+    "out_features": 1024,
+    "latency_ms": 0.049838080406188964,
+    "tflops": 10.772303179103394,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 256,
+    "in_features": 1024,
+    "out_features": 1024,
+    "latency_ms": 0.02845695972442627,
+    "tflops": 18.86606711324725,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 256,
+    "in_features": 2048,
+    "out_features": 2048,
+    "latency_ms": 0.14254079818725585,
+    "tflops": 15.065747318033472,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 256,
+    "in_features": 2048,
+    "out_features": 2048,
+    "latency_ms": 0.04455423831939697,
+    "tflops": 48.19931232142912,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 256,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 0.4942233657836914,
+    "tflops": 17.380672761958383,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 256,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 0.09745408058166503,
+    "tflops": 88.14340600957972,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 512,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 1.0985266876220703,
+    "tflops": 15.639009391013035,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 512,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 0.16286720275878908,
+    "tflops": 105.4839089331194,
+    "use_tf32": true
+  },
+  {
+    "mode": "CUDA Core (FP32)",
+    "batch_size": 1024,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 1.9347865295410156,
+    "tflops": 17.758929909518788,
+    "use_tf32": false
+  },
+  {
+    "mode": "Tensor Core (TF32)",
+    "batch_size": 1024,
+    "in_features": 4096,
+    "out_features": 4096,
+    "latency_ms": 0.27992063522338867,
+    "tflops": 122.74814373931187,
+    "use_tf32": true
+  }
+]

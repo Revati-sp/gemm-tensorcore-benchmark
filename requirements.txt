@@ -1,0 +1,18 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Python dependencies for gemm-tensorcore-benchmark
+# ──────────────────────────────────────────────────────────────────────────────
+# Install with:
+#   pip install -r requirements.txt
+#
+# PyTorch with CUDA — install from https://pytorch.org/get-started/locally/
+# selecting the appropriate CUDA version for your system, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# The entry below acts as a placeholder; replace cu121 with your CUDA version.
+torch>=2.0.0
+
+# Numerical / data handling
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Plotting
+matplotlib>=3.7.0
